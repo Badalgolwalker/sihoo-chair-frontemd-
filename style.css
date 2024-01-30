@@ -1,0 +1,811 @@
+*{
+  margin: 0;
+   padding: 0;
+  box-sizing: border-box;
+  font-family: Electrolize;
+  }
+  html,body{
+  height: 100%;
+  width: 100%;
+  }
+  h2{
+      font-size: 4vw;
+      color: #fff;
+      z-index: 99;
+      position: fixed;
+      left: 50%;
+      top: 5%;
+      transform: translate(-50%,-50%);
+  
+  }
+  #main{
+      position: relative;
+      background-color: #000;
+  }
+  #page1{
+      height: 100vh;
+      position: relative;
+      width: 100vw;
+  }
+  #page1>h4{
+      font-size: 1.8vw;
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      color: #fff;
+  }
+  #page1>.elem{
+      position: absolute;
+      /* background-color: red; */
+      width: 85%;
+      margin-left: 9%;
+      top: 45%;
+      height: 100px;
+  }
+  #page1>.elem>h1{
+      font-size: 4vw;
+      color: #fff;
+      position: absolute;
+      
+      top: 10%;
+      left: 1%;
+  
+  }
+  #page1>video{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  .wc{
+      height: 8%;
+      width: 23%;
+      background-color: #fff;
+      position: absolute;
+      top: 60%;
+      left: 29%;
+      border-radius: 50px;
+      border: 2px solid #000;
+      overflow: hidden;
+     
+      font-size: 1.4vw;
+      text-align: center;
+  }
+  
+  .wc #h1{
+   font-size: 1em;
+   display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 24%;
+  text-align: center;
+  
+  
+  
+  }
+  .wc #h2{
+      font-size: 1em;
+      display: inline-block;
+     position: absolute;
+     top: 110%;
+     left: 20%;
+     text-align: center;
+     
+     
+     
+     }
+  .wc .sq{
+      height: 20px;
+      width: 20px;
+      /* background-color: #000; */
+     border: 2px solid #000;
+     margin-left: 15%;
+     margin-top: 5%;
+      
+  }
+  #bc{
+      height: 8%;
+      width: 23%;
+      background-color: #000;
+      position: absolute;
+      top: 60%;
+      left: 59%;
+      border-radius: 50px;
+      border: 2px solid #fff;
+      overflow: hidden;
+      color: #fff;
+     
+      font-size: 1.4vw;
+      text-align: center;
+      
+     
+  
+  }
+  #bc #h1{
+   font-size: 1em;
+   display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 24%;
+  text-align: center;
+  
+  
+  
+  }
+  #bc #h2{
+      font-size: 1em;
+      display: inline-block;
+     position: absolute;
+     top: 110%;
+     left: 20%;
+     text-align: center;
+     
+     
+     
+     }
+  #bc .sq{
+      height: 20px;
+      width: 20px;
+      /* background-color: #000; */
+     border: 2px solid #fff;
+    
+     margin-left: 15%;
+     margin-top: 5%;
+      
+  }
+  #bc:hover .sq{
+  
+  background-color: red;
+  }
+  #page2{
+      height: 100vh;
+      width: 100vw;
+  }
+  #page2>.vi{
+      height: 100%;
+      width: 100%;
+      background-color: #000;
+      display: flex;
+  }
+  .vi .v1{
+      height: 100%;
+      width: 50%;
+      position: relative;
+      /* background-color: red; */
+      padding-top: 4%;
+  
+  }
+  .vi .v1 video{
+     height: 80%;
+     object-fit: cover;
+     margin-left: 30%;
+  
+     width: 60%;
+  }
+  .v2{
+      height: 37%;
+      width: 20.6%;
+      /* background-color: red; */
+      color: #fff;
+      margin-top: 13%;
+      margin-left: 10%;
+  
+  }
+  .v2 p{
+      font-family: sans-serif;
+      margin-top: 12%;
+      font-size: 14.8px;
+  }
+  
+  #page3{
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+      background-color: #000;
+      display: flex;
+      margin-top: -0.05%;
+  }
+  #page3>.vi{
+      height: 100%;
+      width: 100%;
+      display: flex;
+  }
+  #page3>.vi>.v3{
+      height: 100%;
+      width: 50%;
+      /* background-color: red; */
+      padding-top: 17%;
+  
+  }
+  #page3>.vi>.v3>.vb{
+      height: 37%;
+      width: 43.5%;
+      background-color: #000;
+      text-align: justify;
+      text-align: end;
+      color: #fff;
+      
+      margin-left: 38%;
+  }
+  #page3>.vi>.v3>.vb>p{
+      font-family: sans-serif;
+      margin-top: 4%;
+      font-size: 15.5px;
+  }
+  .vi .v4{
+      height: 100%;
+      width: 50%;
+      position: relative;
+      /* background-color: red; */
+      padding-top: 4%;
+  
+  }
+  .vi .v4 video{
+     height: 80%;
+     object-fit: cover;
+     margin-left: 2%;
+  
+     width: 60%;
+  }
+  
+  
+  
+  
+  #page4{
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+      background-color: #000;
+  
+     
+  }
+  #page4>.vi{
+      height: 100%;
+      width: 100%;
+      display: flex;
+  }
+  #page4 .v2{
+      height: 37%;
+      width: 21.5%;
+      /* background-color: red; */
+      color: #fff;
+      margin-top: 13%;
+      margin-left: 10%;
+  
+  }
+  #page5{
+      height: 100vh;
+      width: 100vw;
+      background-color: #000;
+      padding-top: 5%;
+      position: relative;
+  }
+  .elem1{
+      height: 100px;
+      position: relative;
+      width: 100%;
+      /* background-color: red; */
+     margin-top: 20px;
+  padding-top: 0.8%;
+     
+  
+  }
+  .elem1 p{
+      color: #fff;
+      margin-left: 4%;
+  
+  }
+  .elem2 p{
+      color: #fff;
+      margin-left: 4%;
+  }
+  .elem3 p{
+      color: #fff;
+      margin-left: 4%;
+  }
+  .elem4 p{
+      color: #fff;
+      margin-left: 4%;
+  }
+  .elem5 p{
+      color: #fff;
+      margin-left: 4%;
+  }
+  .elem1 h1{
+      font-size: 3.5vw;
+      color: #fff;
+      margin-left: 12%;
+      display: block;
+   
+  }
+  
+  .elem1 .h1{
+      height: 100px;
+      width: 300%;
+      /* background-color: #fff; */
+     display: none;
+      z-index: 2;
+      /* display:block; */
+     
+  white-space: nowrap;
+  }
+  .elem1 .h1 h3{
+      color: #fff;
+      font-size: 3.5vw;
+      display: inline-block;
+      margin-left: 130px;
+      animation: move1 1s linear infinite ;
+  margin-top: 0.4%;
+   
+     
+  }
+  .elem2{
+      height: 100px;
+      position: relative;
+      width: 100%;
+      /* background-color: red; */
+     margin-top: 20px;
+  padding-top: 0.8%;
+     
+  
+  }
+  .elem2 h1{
+      font-size: 3.5vw;
+      color: #fff;
+      margin-left: 12%;
+      display: block;
+   
+  }
+  
+  .elem2 .h1{
+      height: 100px;
+      width: 300%;
+      /* background-color: #fff; */
+     display: none;
+      z-index: 2;
+      /* display:block; */
+     
+  white-space: nowrap;
+  }
+  .elem2 .h1 h3{
+      color: #fff;
+      font-size: 3.5vw;
+      display: inline-block;
+      margin-left: 60px;
+      animation: move 2s linear infinite ;
+  margin-top: 0.4%;
+   
+     
+  }
+  .elem3{
+      height: 100px;
+      position: relative;
+      width: 100%;
+      /* background-color: red; */
+     margin-top: 20px;
+  padding-top: 0.8%;
+     
+  
+  }
+  .elem3 h1{
+      font-size: 3.5vw;
+      color: #fff;
+      margin-left: 12%;
+      display: block;
+   
+  }
+  
+  .elem3 .h1{
+      height: 100px;
+      width: 300%;
+      /* background-color: #fff; */
+     display: none;
+      z-index: 2;
+      /* display:block; */
+     
+  white-space: nowrap;
+  }
+  .elem3 .h1 h3{
+      color: #fff;
+      font-size: 3.5vw;
+      display: inline-block;
+      margin-left: 60px;
+      animation: move1 0.7s linear infinite ;
+  margin-top: 0.4%;
+   
+     
+  }
+  .elem4{
+      height: 100px;
+      position: relative;
+      width: 100%;
+      /* background-color: red; */
+     margin-top: 20px;
+  padding-top: 0.8%;
+     
+  
+  }
+  .elem4 h1{
+      font-size: 3.5vw;
+      color: #fff;
+      margin-left: 12%;
+      display: block;
+   
+  }
+  
+  .elem4 .h1{
+      height: 100px;
+      width: 300%;
+      /* background-color: #fff; */
+     display: none;
+      z-index: 2;
+      /* display:block; */
+     
+  white-space: nowrap;
+  }
+  .elem4 .h1 h3{
+      color: #fff;
+      font-size: 3.5vw;
+      display: inline-block;
+      margin-left: 60px;
+      animation: move1 1s linear infinite ;
+  margin-top: 0.4%;
+   
+     
+  }
+  .elem5{
+      height: 100px;
+      position: relative;
+      width: 100%;
+      /* background-color: red; */
+     margin-top: 20px;
+  padding-top: 0.8%;
+     
+  
+  }
+  .elem5 h1{
+      font-size: 3.5vw;
+      color: #fff;
+      margin-left: 12%;
+      display: block;
+   
+  }
+  
+  .elem5 .h1{
+      height: 100px;
+      width: 300%;
+      /* background-color: #fff; */
+     display: none;
+      z-index: 2;
+      /* display:block; */
+     
+  white-space: nowrap;
+  }
+  .elem5 .h1 h3{
+      color: #fff;
+      font-size: 3.5vw;
+      display: inline-block;
+      margin-left: 60px;
+      animation: move1 0.7s linear infinite ;
+  margin-top: 0.4%;
+   
+     
+  }
+  
+  
+  @keyframes move {
+      0%{
+          transform: translateX(0%);
+      }
+      100%{
+          transform: translateX(calc(-100% - 64px));
+      }
+  
+  
+  }
+  @keyframes move1 {
+      0%{
+          transform: translateX(calc(-100% - 166px));
+      }
+      100%{
+          transform: translateX(100%);
+      }
+      
+  
+  }
+  #page6{
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+  
+  }
+  #page6 .cver .sqr{
+      height: 100px;
+      width: 100px;
+      background-color: #fff;
+      color: #000;
+      position: absolute;
+      top: 50%;
+      z-index: 99999;
+      display: none;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      padding-top: 2.4%;
+     transition: all linear 0.3s;
+  }
+  
+  #page6 .cver{
+      height: 100%;
+      width: 100%;
+  
+  }
+  #page6 .cver img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  transition: all ease 1s;
+  }
+  #page6 .cver img:hover{
+     scale: 0.95;
+      
+  }
+  #page7{
+      height: 70vh;
+      width: 100%;
+      position: relative;
+  
+  
+  }
+  #page7 .cver1{
+      height: 100%;
+      width: 100%;
+      display: flex;
+  }
+  #page7 .cver1 .cv1{
+      height: 100%;
+      width: 50%;
+      
+  }
+  #page7 .cver1 .cv1 img{
+      height: 85%;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 5%;
+      transition: all ease 0.5s;
+  
+  }
+  #page7 .cver1 .cv2{
+      height: 100%;
+      width: 50%;
+  }
+  #page7 .cver1 .cv2 img{
+      height: 85%;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 5%;
+      transition: all ease 0.5s;
+  }
+  #page7 .cver1 .cv2 img:hover{
+     scale: 0.95;
+      
+      /* margin-left: 8%; */
+  }
+  #page7 .cver1 .cv1 img:hover{
+     scale: 0.95;
+      /* margin-left: 3%; */
+  }
+  #page8{
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+  
+  }
+  #page8.cver{
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+  
+  }
+  #page8 .cver img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  transition: all ease 1s;
+  }
+  #page8 .cver img:hover{
+     scale: 0.95;
+  }
+  #page9{
+      height: 70vh;
+      position: relative;
+      width: 100%;
+  /* background-color: red; */
+  
+  }
+  #page9 .cver1{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      margin-top: 20%;
+  }
+  #page9 .cver1 .cv1{
+      height: 100%;
+      width: 50%;
+      
+  }
+  #page9 .cver1 .cv1 img{
+      height: 85%;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 5%;
+      transition: all ease 0.5s;
+  
+  }
+  #page9 .cver1 .cv2{
+      height: 100%;
+      width: 50%;
+  }
+  #page9 .cver1 .cv2 img{
+      height: 85%;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 5%;
+      transition: all ease 0.5s;
+  }
+  #page9 .cver1 .cv2 img:hover{
+     scale: 0.95;
+      
+      /* margin-left: 8%; */
+  }
+  #page9 .cver1 .cv1 img:hover{
+     scale: 0.95;
+      /* margin-left: 3%; */
+  }
+  #page10{
+      height: 100vh;
+      width: 100vw;
+      padding-top: 5%;
+      position: relative;
+  }
+  #page10 .tx{
+      height: 40%;
+      width: 240%;
+      /* background-color: rgb(110, 87, 87); */
+      font-size: 6vw;
+      
+      white-space: nowrap;
+     
+  }
+  #page10 .tx h1{
+      font-size: 12vw;
+      font-style: italic;
+      color: #585757;
+      font-weight: 300;
+      display: inline-block;
+      animation: move 7s linear infinite ;
+  }
+  
+  #page10 .tx1{
+      height: 45%;
+      width: 420%;
+      /* background-color: red; */
+     display: flex;
+     
+  }
+  #page10 .tx1 h1{
+      font-size: 13vw;
+      font-weight: 400;
+      margin-left: 150px;
+      text-align: center;
+  
+      margin-top: -20px;
+      color: #5e5e5e;
+      font-style: italic;
+      animation: move1 2s linear infinite;
+      
+  }
+  @keyframes move1 {
+   0%{
+      transform: translateX(-100%);
+      
+   }   
+   100%{
+      transform: translateX(calc(100% - 2471px));
+      
+   } 
+  }
+  #page11{
+      height: 60vh;
+      width: 100vw;
+      color: #fff;
+  }
+  #page11 h1{
+      font-size: 6vw;
+      color: gray;
+      margin-left: 27%;
+      margin-top: 10%;
+  }
+  #page11 input{
+      height: 100px;
+      width: 80%;
+      margin-left: 8%;
+      border-radius: 50px;
+      border: 1px solid rgb(255, 248, 248);
+      padding-left: 2%;
+      font-size: 2vw;
+      margin-top: 1%;
+      background-color: #000;
+      color: #fff;
+    
+  }
+  #page12{
+      height: 100vh;
+      width: 100vw;
+      /* background-color: red; */
+  }
+  #page12 .mi{
+      height: 100%;
+      width: 100%;
+      /* background-color: #4f4747; */
+      display: flex;
+  }
+  #page12 .mi1{
+      height: 100%;
+      width: 50%;
+      /* background-color: #fff; */
+      padding-top: 10%;
+  }
+  #page12 .mi1 .box{
+      height: 250px;
+      width: 250px;
+      /* background-color: red; */
+      font-size: 4vw;
+      color: #b7b5b5;
+      margin-left: 20%;
+      
+  }
+  #page12 .mi2{
+      height: 100%;
+      width: 50%;
+      /* background-color: #fff; */
+      padding-top: 9%;
+  }
+  #page12 .mi2 .box1{
+      
+      /* background-color: red; */
+      font-size: 1.5vw;
+      color: #fff;
+      margin-left: -19%;
+      line-height: 35px;
+      
+  }
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  /* .elem2{
+      height: 120px;
+      width: 100%;
+  
+  }
+  .elem3{
+      height: 120px;
+      width: 100%;
+  
+  }
+  .elem4{
+      height: 120px;
+      width: 100%;
+  
+  }
+  .elem5{
+      height: 120px;
+      width: 100%;
+  
+  /* }  */
+  
